@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/AlienRace.ThingDef_AlienRace[@ParentName="BasePOTAChimpRaceInit"]/alienRace/raceRestriction/apparelList</xpath>
+		<value>
+			<li>Apparel_MechChimp</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/AlienRace.ThingDef_AlienRace[@ParentName="BasePOTAOrangutanRaceInit"]/alienRace/raceRestriction/apparelList</xpath>
+		<value>
+			<li>Apparel_MechOrangutan</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/AlienRace.ThingDef_AlienRace[@ParentName="BasePOTABonoboRaceInit"]/alienRace/raceRestriction/apparelList</xpath>
+		<value>
+			<li>Apparel_MechBonobo</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/AlienRace.ThingDef_AlienRace[@ParentName="BasePOTAGorillaRaceInit"]/alienRace/raceRestriction/apparelList</xpath>
+		<value>
+			<li>Apparel_MechGorilla</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/AlienRace.ThingDef_AlienRace[@ParentName="BasePOTAGorillaRaceInit"]/alienRace/raceRestriction/recipeList</xpath>
+		<value>
+			<li>Apparel_MechChimp</li>
+			<li>Apparel_MechBonobo</li>
+			<li>Apparel_MechOrangutan</li>
+			<li>Apparel_MechGorilla</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/AlienRace.ThingDef_AlienRace[@ParentName="BasePOTAChimpRaceInit"]/alienRace/raceRestriction/recipeList</xpath>
+		<value>
+			<li>Apparel_MechChimp</li>
+			<li>Apparel_MechBonobo</li>
+			<li>Apparel_MechOrangutan</li>
+			<li>Apparel_MechGorilla</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/AlienRace.ThingDef_AlienRace[@ParentName="BasePOTAOrangutanRaceInit"]/alienRace/raceRestriction/recipeList</xpath>
+		<value>
+			<li>Apparel_MechChimp</li>
+			<li>Apparel_MechBonobo</li>
+			<li>Apparel_MechOrangutan</li>
+			<li>Apparel_MechGorilla</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/AlienRace.ThingDef_AlienRace[@ParentName="BasePOTABonoboRaceInit"]/alienRace/raceRestriction/recipeList</xpath>
+		<value>
+			<li>Apparel_MechChimp</li>
+			<li>Apparel_MechBonobo</li>
+			<li>Apparel_MechOrangutan</li>
+			<li>Apparel_MechGorilla</li>
+		</value>
+	</Operation>
+
+</Patch>
+
+<!--/AlienRace.ThingDef_AlienRace[@ParentName="BasePOTAChimpRaceInit"]/alienRace/raceRestriction/whiteApparelList//li[5]/text()-->
+<!--/AlienRace.ThingDef_AlienRace[defName="Alien_POTA_Chimp_Race_Standard"]/alienRace/raceRestriction/apparelList/-->
