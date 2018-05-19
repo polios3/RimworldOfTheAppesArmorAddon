@@ -1,7 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>[B18] RimWorld of the Apes Armor Addon 0.1 </name>
+	<name>[B18] RimWorld of the Apes Armor Addon </name>
 	<author>polios3 and DarkInquisitor</author>
 	<targetVersion>0.18.1722</targetVersion>
-	<description>Apes Together Strong! But needs armors</description>
+	<description>
+	Version 0.2
+	
+	Apes Together Strong! But needs armors
+	
+	Changes in 0.2:
+	minimal better graphic
+	Added Orangutan better texture
+	</description>
 </ModMetaData>

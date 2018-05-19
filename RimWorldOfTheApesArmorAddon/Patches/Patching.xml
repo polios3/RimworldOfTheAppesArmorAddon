@@ -20,7 +20,7 @@
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
-		<xpath>*/AlienRace.ThingDef_AlienRace[@ParentName="BasePOTAGorillaRaceInit"]/alienRace/raceRestriction/apparelList</xpath>
+		<xpath>*/AlienRace.ThingDef_AlienRace[@ParentName="BasePOTAGorillaRaceInit"]/alienRace/raceRestriction</xpath>
 		<value>
 			<apparelList>
 				<li>Apparel_MechGorilla</li>
